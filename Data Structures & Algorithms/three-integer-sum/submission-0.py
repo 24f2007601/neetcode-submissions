@@ -31,7 +31,7 @@ class Solution:
                     l += 1
                     r -= 1
                     # Skip duplicate values of nums[l] to avoid duplicate triplets
-                    while nums[l] == nums[l - 1] and l < r:
+                    while l < r and nums[l] == nums[l - 1]:
                         l += 1
                         
         return res

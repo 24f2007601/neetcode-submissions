@@ -16,7 +16,7 @@ Each solution folder includes a **`structure.md`** file that breaks down the log
 
 1. **Connect your GitHub account** on [neetcode.io/profile/github](https://neetcode.io/profile/github).
 2. **Auto-commit** — every time you submit a solution on NeetCode, it is pushed here automatically (configurable by status).
-3. **Bulk Sync** — push all your past solutions at once from the GitHub settings page.
+3. **Bulk Sync** — push all past solutions at once from the GitHub settings page.
 4. **Manual sync** — from the submission history panel on any problem page, sync or remove individual submissions.
 
 ---
@@ -62,6 +62,10 @@ Data Structures & Algorithms/two-integer-sum/structure.md
 | 14 | **Longest Substring Without Duplicates** | Sliding window + hash set | O(n) / O(n) | [solution](Data%20Structures%20%26%20Algorithms/longest-substring-without-duplicates/submission-0.py) · [explanation](Data%20Structures%20%26%20Algorithms/longest-substring-without-duplicates/structure.md) |
 | 15 | **Longest Repeating Substring with Replacement** | Sliding window + frequency map | O(n) / O(1) | [solution](Data%20Structures%20%26%20Algorithms/longest-repeating-substring-with-replacement/submission-0.py) · [explanation](Data%20Structures%20%26%20Algorithms/longest-repeating-substring-with-replacement/structure.md) |
 | 16 | **Validate Parentheses** | Stack with bracket mapping | O(n) / O(n) | [solution](Data%20Structures%20%26%20Algorithms/validate-parentheses/submission-0.py) · [explanation](Data%20Structures%20%26%20Algorithms/validate-parentheses/structure.md) |
+| 17 | **Find Minimum in Rotated Sorted Array** | Modified binary search (pivot detection) | O(log n) / O(1) | [solution](Data%20Structures%20%26%20Algorithms/find-minimum-in-rotated-sorted-array/submission-0.py) · [explanation](Data%20Structures%20%26%20Algorithms/find-minimum-in-rotated-sorted-array/structure.md) |
+| 18 | **Find Target in Rotated Sorted Array** | Binary search with sorted half identification | O(log n) / O(1) | [solution](Data%20Structures%20%26%20Algorithms/find-target-in-rotated-sorted-array/submission-0.py) · [explanation](Data%20Structures%20%26%20Algorithms/find-target-in-rotated-sorted-array/structure.md) |
+| 19 | **Reverse a Linked List** | In-place iterative pointer reversal | O(n) / O(1) | [solution](Data%20Structures%20%26%20Algorithms/reverse-a-linked-list/submission-0.py) · [explanation](Data%20Structures%20%26%20Algorithms/reverse-a-linked-list/structure.md) |
+| 20 | **Merge Two Sorted Linked Lists** | Iterative comparison with dummy anchor | O(n + m) / O(1) | [solution](Data%20Structures%20%26%20Algorithms/merge-two-sorted-linked-lists/submission-0.py) · [explanation](Data%20Structures%20%26%20Algorithms/merge-two-sorted-linked-lists/structure.md) |
 
 > **Complexity** is listed as Time / Space.
 

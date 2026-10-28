@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        res = []
+        triplets = []
         # Sorting enables the two-pointer technique and easy duplicate skipping
         nums.sort() 
 
@@ -27,11 +27,11 @@ class Solution:
                     l += 1 
                 else:
                     # Found a valid triplet that sums to zero
-                    res.append([nums[i], nums[l], nums[r]])
+                    triplets.append([nums[i], nums[l], nums[r]])
                     l += 1
                     r -= 1
                     # Skip duplicate values of nums[l] to avoid duplicate triplets
                     while l < r and nums[l] == nums[l - 1]:
                         l += 1
                         
-        return res
+        return triplets

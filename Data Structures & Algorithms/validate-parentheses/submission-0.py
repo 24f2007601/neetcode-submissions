@@ -4,12 +4,13 @@ class Solution:
         stack = []
         # Maps each closing bracket to its matching opening bracket
         mapping = {")": "(", "}": "{", "]": "["}
+        sentinel = "#"
         
         for char in s:
             if char in mapping:
                 # Closing bracket found — pop the top of the stack
-                # Use '#' sentinel if stack is empty (no matching opener → will fail check)
-                top_element = stack.pop() if stack else '#'
+                # Use sentinel if stack is empty (no matching opener → will fail check)
+                top_element = stack.pop() if stack else sentinel
                 # If the popped element doesn't match the expected opening bracket → invalid
                 if mapping[char] != top_element:
                     return False

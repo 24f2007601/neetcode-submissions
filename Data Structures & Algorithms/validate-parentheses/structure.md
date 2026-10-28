@@ -47,7 +47,7 @@ Input: "({[]})"
 char='(': opening → push → stack=['(']
 char='{': opening → push → stack=['(', '{']
 char='[': opening → push → stack=['(', '{', '[']
-char=']': closing → pop '[', mapping[']']=']' matches '[' ✓ → stack=['(', '{']
+char=']': closing → pop '[', mapping[']']='[' matches '[' ✓ → stack=['(', '{']
 char='}': closing → pop '{', mapping['}']='{' matches '{' ✓ → stack=['(']
 char=')': closing → pop '(', mapping[')']=')' matches '(' ✓ → stack=[]
 
